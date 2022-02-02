@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TransparentUpgradableProxy.sol": "Address"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TransparentUpgradableProxy.sol": {
+			"keccak256": "0x69e89c0d3b863c89ed4441a53d130af2912e05e9a81a8f595edd60a36ce97bbf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ea28ed44b420aa64b0c9894fb47bcf7fac76a5d96f5887bc2eb3ecb966ad65c",
+				"dweb:/ipfs/QmcF8wAQ2icmHMGRfrMs2c25C6oYCxVkF9NzM1o75o2Z1t"
+			]
+		}
+	},
+	"version": 1
+}

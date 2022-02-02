@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContextUpgradeable.sol": "ContextUpgradeable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddressUpgradeable.sol": {
+			"keccak256": "0x3248dd7276ab0974d87e44c713352ad1dae4fe1b883ceb2c3804b2ddada8199b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6f3172b894cf94b31086664632a55753e8b0dc1bbeb395ed5a090a915832e7a2",
+				"dweb:/ipfs/QmaWow4gDfQhYWapUHHxDpVTB7CwfkYqkAJhCpgDR4mdEC"
+			]
+		},
+		"contracts/ContextUpgradeable.sol": {
+			"keccak256": "0xbd064d1c3bb74bda19368a409809ef5dd0435f0e444a369c5c2f1eacf5dfd84c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e9e33a4c0aefa2ccc17284f60053a5cad17e36fdf07358ecd641be8a52be4c7b",
+				"dweb:/ipfs/Qmb2eaiwZd5ixELZjtfoDGJn33F4MUevgwHV2oBYk5X2pY"
+			]
+		},
+		"contracts/Initializable.sol": {
+			"keccak256": "0xe1267bd99e446653260ddfb801ba1a9b094b864b57f7235d88f4a3ba5ab53cf8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8bcdc267c81dcdec1cdc96834a18520a7f8f8fdb33ea2fc6ba2ecde7fdaf6331",
+				"dweb:/ipfs/QmZ6moCdC2skQS6ZEaX9pF98ScwZu1XqLHUsBaN3oyz9UQ"
+			]
+		}
+	},
+	"version": 1
+}

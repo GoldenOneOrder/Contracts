@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "beforeTokenTransfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IWalletObserver.sol": "IWalletObserver"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IWalletObserver.sol": {
+			"keccak256": "0x78a905d7a6852fa09c2ede3184ea65235488f004961a20ddbb1dbfd135db26f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5b23e9d2941b426147d8a0c219a5ed931448ac4d66047aeda5589cce2fa84c7",
+				"dweb:/ipfs/QmeHbc1uaD52SrZU3eXfpRBDkyXEDQFMyYyUr4vURSM7WB"
+			]
+		}
+	},
+	"version": 1
+}
